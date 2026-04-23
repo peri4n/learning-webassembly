@@ -1,0 +1,5 @@
+[toolchain]
+# NOTE: If CI is failing because of required features in relation to rust editions, bump to latest nightly
+channel = "stable"
+targets = ["wasm32-unknown-unknown"]
+components = ["rust-src", "rustfmt", "clippy"]
